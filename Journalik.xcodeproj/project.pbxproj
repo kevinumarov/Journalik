@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5123F9A2C91DB7A00270126 /* TodayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5123F992C91DB7A00270126 /* TodayViewModel.swift */; };
+		A51892E02C818650003F6AEB /* JournalikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51892DF2C818650003F6AEB /* JournalikApp.swift */; };
+		A51892E42C818654003F6AEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51892E32C818654003F6AEB /* Assets.xcassets */; };
+		A51892E72C818654003F6AEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51892E62C818654003F6AEB /* Preview Assets.xcassets */; };
+		A51892F72C81877F003F6AEB /* Algorithm.docc in Sources */ = {isa = PBXBuildFile; fileRef = A51892F62C81877F003F6AEB /* Algorithm.docc */; };
+		A53172282C92C46E00BD5F2C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53172272C92C46E00BD5F2C /* Theme.swift */; };
+		A531724F2C9ACE0900BD5F2C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = A531724E2C9ACE0900BD5F2C /* Lottie */; };
+		A547B2902C87153F00957D68 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A547B28F2C87153F00957D68 /* HomeView.swift */; };
+		A547B2952C881B1C00957D68 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A547B2942C881B1C00957D68 /* SplashScreenView.swift */; };
+		A547B2972C881B4D00957D68 /* DetailsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A547B2962C881B4D00957D68 /* DetailsScreenView.swift */; };
+		A547B2992C881B6400957D68 /* TodayScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A547B2982C881B6400957D68 /* TodayScreenView.swift */; };
+		A547B29C2C88250F00957D68 /* Urbanist-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A547B29B2C88250F00957D68 /* Urbanist-Black.ttf */; };
+		A547B29E2C88251900957D68 /* Urbanist-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A547B29D2C88251900957D68 /* Urbanist-Bold.ttf */; };
+		A547B2A02C88252700957D68 /* Urbanist-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A547B29F2C88252700957D68 /* Urbanist-Medium.ttf */; };
+		A547B2A22C88253500957D68 /* Urbanist-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A547B2A12C88253500957D68 /* Urbanist-SemiBold.ttf */; };
+		A547B2A42C88254700957D68 /* Urbanist-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A547B2A32C88254700957D68 /* Urbanist-ExtraBold.ttf */; };
+		A547B2A62C88255500957D68 /* Urbanist-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A547B2A52C88255500957D68 /* Urbanist-Regular.ttf */; };
+		A547B2A82C8FF6AD00957D68 /* DayCollectionView .swift in Sources */ = {isa = PBXBuildFile; fileRef = A547B2A72C8FF6AD00957D68 /* DayCollectionView .swift */; };
+		A547B2AA2C8FF6C200957D68 /* DayCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A547B2A92C8FF6C200957D68 /* DayCollectionViewModel.swift */; };
+		A547B2AC2C8FF6D300957D68 /* DayDetailsViewModel .swift in Sources */ = {isa = PBXBuildFile; fileRef = A547B2AB2C8FF6D300957D68 /* DayDetailsViewModel .swift */; };
+		A547B2AE2C8FF6E400957D68 /* DayDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A547B2AD2C8FF6E400957D68 /* DayDetailsModel.swift */; };
+		A547B2B02C8FF73A00957D68 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A547B2AF2C8FF73A00957D68 /* HomeViewModel.swift */; };
+		A59ABA1E2CA2C4E500D0FE2B /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59ABA1D2CA2C4E500D0FE2B /* SpeechRecognizer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A5123F982C91CBB600270126 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A5123F992C91DB7A00270126 /* TodayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewModel.swift; sourceTree = "<group>"; };
+		A51892DC2C818650003F6AEB /* Journalik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Journalik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51892DF2C818650003F6AEB /* JournalikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalikApp.swift; sourceTree = "<group>"; };
+		A51892E32C818654003F6AEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A51892E62C818654003F6AEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A51892F62C81877F003F6AEB /* Algorithm.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Algorithm.docc; sourceTree = "<group>"; };
+		A53172272C92C46E00BD5F2C /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A547B28F2C87153F00957D68 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A547B2942C881B1C00957D68 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		A547B2962C881B4D00957D68 /* DetailsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsScreenView.swift; sourceTree = "<group>"; };
+		A547B2982C881B6400957D68 /* TodayScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayScreenView.swift; sourceTree = "<group>"; };
+		A547B29B2C88250F00957D68 /* Urbanist-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Black.ttf"; sourceTree = "<group>"; };
+		A547B29D2C88251900957D68 /* Urbanist-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Bold.ttf"; sourceTree = "<group>"; };
+		A547B29F2C88252700957D68 /* Urbanist-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Medium.ttf"; sourceTree = "<group>"; };
+		A547B2A12C88253500957D68 /* Urbanist-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-SemiBold.ttf"; sourceTree = "<group>"; };
+		A547B2A32C88254700957D68 /* Urbanist-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A547B2A52C88255500957D68 /* Urbanist-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Regular.ttf"; sourceTree = "<group>"; };
+		A547B2A72C8FF6AD00957D68 /* DayCollectionView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DayCollectionView .swift"; sourceTree = "<group>"; };
+		A547B2A92C8FF6C200957D68 /* DayCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCollectionViewModel.swift; sourceTree = "<group>"; };
+		A547B2AB2C8FF6D300957D68 /* DayDetailsViewModel .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DayDetailsViewModel .swift"; sourceTree = "<group>"; };
+		A547B2AD2C8FF6E400957D68 /* DayDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailsModel.swift; sourceTree = "<group>"; };
+		A547B2AF2C8FF73A00957D68 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		A59ABA1D2CA2C4E500D0FE2B /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A51892D92C818650003F6AEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A531724F2C9ACE0900BD5F2C /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A51892D32C818650003F6AEB = {
+			isa = PBXGroup;
+			children = (
+				A51892DE2C818650003F6AEB /* Journalik */,
+				A51892DD2C818650003F6AEB /* Products */,
+				BA5D93F091FD9BFD36D98C50 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A51892DD2C818650003F6AEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A51892DC2C818650003F6AEB /* Journalik.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A51892DE2C818650003F6AEB /* Journalik */ = {
+			isa = PBXGroup;
+			children = (
+				A51892F52C81875F003F6AEB /* ReadMe */,
+				A51892ED2C81866C003F6AEB /* App */,
+				A51892E52C818654003F6AEB /* Preview Content */,
+			);
+			path = Journalik;
+			sourceTree = "<group>";
+		};
+		A51892E52C818654003F6AEB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A51892E62C818654003F6AEB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A51892ED2C81866C003F6AEB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A547B2912C881ACD00957D68 /* Main */,
+				A51892F02C8186CA003F6AEB /* Screens */,
+				A51892EF2C818690003F6AEB /* Assets */,
+				A51892EE2C81868B003F6AEB /* Components  */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A51892EE2C81868B003F6AEB /* Components  */ = {
+			isa = PBXGroup;
+			children = (
+				A53172262C92C44500BD5F2C /* UI */,
+			);
+			path = "Components ";
+			sourceTree = "<group>";
+		};
+		A51892EF2C818690003F6AEB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A547B29A2C8824F800957D68 /* Fonts */,
+				A51892E32C818654003F6AEB /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A51892F02C8186CA003F6AEB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A51892F82C81E98F003F6AEB /* DayCollection */,
+				A51892F42C818725003F6AEB /* Splash */,
+				A51892F32C81871A003F6AEB /* DayDetails */,
+				A51892F22C8186F2003F6AEB /* Today */,
+				A51892F12C8186E9003F6AEB /* Home */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		A51892F12C8186E9003F6AEB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A547B28F2C87153F00957D68 /* HomeView.swift */,
+				A547B2AF2C8FF73A00957D68 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A51892F22C8186F2003F6AEB /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				A547B2982C881B6400957D68 /* TodayScreenView.swift */,
+				A5123F992C91DB7A00270126 /* TodayViewModel.swift */,
+				A59ABA1D2CA2C4E500D0FE2B /* SpeechRecognizer.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		A51892F32C81871A003F6AEB /* DayDetails */ = {
+			isa = PBXGroup;
+			children = (
+				A547B2962C881B4D00957D68 /* DetailsScreenView.swift */,
+				A547B2AB2C8FF6D300957D68 /* DayDetailsViewModel .swift */,
+				A547B2AD2C8FF6E400957D68 /* DayDetailsModel.swift */,
+			);
+			path = DayDetails;
+			sourceTree = "<group>";
+		};
+		A51892F42C818725003F6AEB /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				A547B2942C881B1C00957D68 /* SplashScreenView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		A51892F52C81875F003F6AEB /* ReadMe */ = {
+			isa = PBXGroup;
+			children = (
+				A51892F62C81877F003F6AEB /* Algorithm.docc */,
+			);
+			path = ReadMe;
+			sourceTree = "<group>";
+		};
+		A51892F82C81E98F003F6AEB /* DayCollection */ = {
+			isa = PBXGroup;
+			children = (
+				A547B2A72C8FF6AD00957D68 /* DayCollectionView .swift */,
+				A547B2A92C8FF6C200957D68 /* DayCollectionViewModel.swift */,
+			);
+			path = DayCollection;
+			sourceTree = "<group>";
+		};
+		A53172262C92C44500BD5F2C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A53172272C92C46E00BD5F2C /* Theme.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A547B2912C881ACD00957D68 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A51892DF2C818650003F6AEB /* JournalikApp.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A547B29A2C8824F800957D68 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A547B2A52C88255500957D68 /* Urbanist-Regular.ttf */,
+				A547B2A32C88254700957D68 /* Urbanist-ExtraBold.ttf */,
+				A547B2A12C88253500957D68 /* Urbanist-SemiBold.ttf */,
+				A547B29F2C88252700957D68 /* Urbanist-Medium.ttf */,
+				A547B29D2C88251900957D68 /* Urbanist-Bold.ttf */,
+				A547B29B2C88250F00957D68 /* Urbanist-Black.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		BA5D93F091FD9BFD36D98C50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A51892DB2C818650003F6AEB /* Journalik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A51892EA2C818654003F6AEB /* Build configuration list for PBXNativeTarget "Journalik" */;
+			buildPhases = (
+				A51892D82C818650003F6AEB /* Sources */,
+				A51892D92C818650003F6AEB /* Frameworks */,
+				A51892DA2C818650003F6AEB /* Resources */,
+				A5123F982C91CBB600270126 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Journalik;
+			packageProductDependencies = (
+				A531724E2C9ACE0900BD5F2C /* Lottie */,
+			);
+			productName = Journalik;
+			productReference = A51892DC2C818650003F6AEB /* Journalik.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A51892D42C818650003F6AEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					A51892DB2C818650003F6AEB = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = A51892D72C818650003F6AEB /* Build configuration list for PBXProject "Journalik" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A51892D32C818650003F6AEB;
+			packageReferences = (
+				A531724D2C9ACE0900BD5F2C /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
+			productRefGroup = A51892DD2C818650003F6AEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A51892DB2C818650003F6AEB /* Journalik */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A51892DA2C818650003F6AEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A547B29C2C88250F00957D68 /* Urbanist-Black.ttf in Resources */,
+				A547B2A42C88254700957D68 /* Urbanist-ExtraBold.ttf in Resources */,
+				A51892E72C818654003F6AEB /* Preview Assets.xcassets in Resources */,
+				A51892E42C818654003F6AEB /* Assets.xcassets in Resources */,
+				A547B2A22C88253500957D68 /* Urbanist-SemiBold.ttf in Resources */,
+				A547B2A02C88252700957D68 /* Urbanist-Medium.ttf in Resources */,
+				A547B29E2C88251900957D68 /* Urbanist-Bold.ttf in Resources */,
+				A547B2A62C88255500957D68 /* Urbanist-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A51892D82C818650003F6AEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A547B2952C881B1C00957D68 /* SplashScreenView.swift in Sources */,
+				A547B2B02C8FF73A00957D68 /* HomeViewModel.swift in Sources */,
+				A51892F72C81877F003F6AEB /* Algorithm.docc in Sources */,
+				A547B2AC2C8FF6D300957D68 /* DayDetailsViewModel .swift in Sources */,
+				A53172282C92C46E00BD5F2C /* Theme.swift in Sources */,
+				A547B2992C881B6400957D68 /* TodayScreenView.swift in Sources */,
+				A547B2A82C8FF6AD00957D68 /* DayCollectionView .swift in Sources */,
+				A59ABA1E2CA2C4E500D0FE2B /* SpeechRecognizer.swift in Sources */,
+				A547B2972C881B4D00957D68 /* DetailsScreenView.swift in Sources */,
+				A547B2AA2C8FF6C200957D68 /* DayCollectionViewModel.swift in Sources */,
+				A5123F9A2C91DB7A00270126 /* TodayViewModel.swift in Sources */,
+				A547B2902C87153F00957D68 /* HomeView.swift in Sources */,
+				A51892E02C818650003F6AEB /* JournalikApp.swift in Sources */,
+				A547B2AE2C8FF6E400957D68 /* DayDetailsModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A51892E82C818654003F6AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A51892E92C818654003F6AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A51892EB2C818654003F6AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Journalik/Preview Content\"";
+				DEVELOPMENT_TEAM = 63C9M2DNV7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "The app uses the microphone to take notes";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "The app uses Speech recognition to convert speech into text";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = White;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.journalik.Journalik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A51892EC2C818654003F6AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Journalik/Preview Content\"";
+				DEVELOPMENT_TEAM = 63C9M2DNV7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "The app uses the microphone to take notes";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "The app uses Speech recognition to convert speech into text";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = White;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.journalik.Journalik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A51892D72C818650003F6AEB /* Build configuration list for PBXProject "Journalik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51892E82C818654003F6AEB /* Debug */,
+				A51892E92C818654003F6AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A51892EA2C818654003F6AEB /* Build configuration list for PBXNativeTarget "Journalik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51892EB2C818654003F6AEB /* Debug */,
+				A51892EC2C818654003F6AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A531724D2C9ACE0900BD5F2C /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A531724E2C9ACE0900BD5F2C /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A531724D2C9ACE0900BD5F2C /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A51892D42C818650003F6AEB /* Project object */;
+}
